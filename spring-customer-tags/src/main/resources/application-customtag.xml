@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:user="http://www.qianyi.com/schema/user"
+       xmlns:compay="http://www.qianyi.com/schema/company"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.qianyi.com/schema/user http://www.qianyi.com/schema/user.xsd
+        http://www.qianyi.com/schema/company http://www.qianyi.com/schema/company.xsd">
+
+    <user:user id="id" name="qianyi"/>
+    <compay:company id="company" name="公司名称" address="测试地址"/>
+</beans>
